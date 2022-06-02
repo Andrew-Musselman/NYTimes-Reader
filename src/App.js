@@ -10,18 +10,17 @@ const App = () => {
 
   const getArticles = async () => {
     let retrievedArticles = await getData()
-    setArticles(retrievedArticles)
+    setArticles(retrievedArticles.response.docs)
   }
 
   useEffect(() => {
     getArticles()
   }, [])
-
+  
   return (
     <div>
-      <h2>{process.env.REACT_APP_NYT_API_KEY}</h2>
       <Header />
-      <Articles />
+      <Articles articles={articles}/>
       <Footer />
     </div>
   );
