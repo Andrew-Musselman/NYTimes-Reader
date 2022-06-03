@@ -1,4 +1,4 @@
-# NYTimes-Reader
+# NYTimes-README
 
 ## About
 
@@ -44,6 +44,13 @@ To get a local copy up and running follow these simple steps.
 - Final Product
 
 ![NYT README final product](https://user-images.githubusercontent.com/92277979/171896309-2357bb50-cca2-4e6e-86da-e32943cc735c.png)
+
+## Tech Stack
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%purple)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Wins and Challenges
 
