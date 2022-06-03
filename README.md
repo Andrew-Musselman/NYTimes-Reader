@@ -2,11 +2,11 @@
 
 ## About
 
-    This app shows the user top stories from the New York Times with headline, author, and a short snippet. 
+This app shows the user top stories from the New York Times with headline, author, and a short snippet. 
     
-    The user can click on each article to see more details about the article and a link to the article.
+The user can click on each article to see more details about the article and a link to the article.
 
-    The user can also use the search bar to search for articles on topics that interest them.
+The user can also use the search bar to search for articles on topics that interest them.
 
 # Getting Started
 To get a local copy up and running follow these simple steps.
