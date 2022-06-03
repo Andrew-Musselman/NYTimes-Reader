@@ -1,8 +1,10 @@
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Articles from "./Articles/Articles";
+import ArticleDetails from "./ArticleDetails/ArticleDetails";
 import getData from "./apiCalls";
 import { useState, useEffect } from 'react';
+import { Route } from "react-router-dom";
 
 
 const App = () => {
@@ -18,11 +20,20 @@ const App = () => {
   }, [])
   
   return (
-    <div>
+    <main className="app">
       <Header />
-      <Articles articles={articles}/>
+      <Route exact path='/' render={() => {
+        return <Articles articles={articles}/>
+      }}
+      />
+      <Route 
+        exact path='/:id' 
+        render={(match) => {
+          return <ArticleDetails details={articles[match.match.params.id]}/>
+        }}
+      />
       <Footer />
-    </div>
+    </main >
   );
 }
 
