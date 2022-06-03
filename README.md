@@ -33,11 +33,17 @@ To get a local copy up and running follow these simple steps.
     
 - Wireframe
 
+![WireFrame for NYTREader](https://user-images.githubusercontent.com/92277979/171894830-d97f0c8f-5491-4619-9567-7c00e2afd4b7.png)
+
 - Project Board
+
+<img width="1434" alt="Project board for NYTReader" src="https://user-images.githubusercontent.com/92277979/171893623-d38bfda4-49ae-4d26-bdb3-a1a5cf06611c.png">
 
 - Agile(ish) workflow
 
 - Final Product
+
+![NYT README final product](https://user-images.githubusercontent.com/92277979/171896309-2357bb50-cca2-4e6e-86da-e32943cc735c.png)
 
 ## Wins and Challenges
 
@@ -48,6 +54,7 @@ To get a local copy up and running follow these simple steps.
 ## Futere Additions
 
 - A section for Top Stories that persists across all pages
+- Responsive design for viewing on mobile
 - More robust error handling
 - End to end testing of user paths using Cypress
 - Depoloyment
