@@ -58,7 +58,7 @@ To get a local copy up and running follow these simple steps.
 
 - Challenges: Consuming a new API and determining which details to present to the user, accessing nested data in the response from the API
 
-## Futere Additions
+## Future Additions
 
 - A section for Top Stories that persists across all pages
 - Responsive design for viewing on mobile
