@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./Header/Header";
+import Footer from "./Footer/Footer";
+import Articles from "./Articles/Articles";
+import getData from "./apiCalls";
+import { useState, useEffect } from 'react';
 
-function App() {
+
+const App = () => {
+  let [articles, setArticles] = useState([]);
+
+  const getArticles = async () => {
+    let retrievedArticles = await getData()
+    setArticles(retrievedArticles.response.docs)
+  }
+
+  useEffect(() => {
+    getArticles()
+  }, [])
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Articles articles={articles}/>
+      <Footer />
     </div>
   );
 }
