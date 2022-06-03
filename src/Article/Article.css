@@ -1,0 +1,11 @@
+.article {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 70%;
+    border: solid black 1px;
+    padding: 1em;
+    margin: 2em;
+    box-shadow: 10px;
+    background: #d9d9d9bb;
+}

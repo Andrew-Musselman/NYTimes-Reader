@@ -1,3 +1,5 @@
+import './Article.css'
+
 const Article = ({headline, author, synopsis}) => {
     return (
         <div className="article">
